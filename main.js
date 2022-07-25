@@ -1,4 +1,5 @@
 const URL = 'https://jsonplaceholder.typicode.com/users';
+const cuerpoTabla = document.querySelector("#cuerpoTabla")
 
 fetch(URL)
     .then((res) => res.json())
